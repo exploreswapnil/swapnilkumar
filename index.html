@@ -1,182 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/098aa582ef.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-         
-         $('#content').load("../tablist/linkedin.html");
-      
-      });
-      </script>
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <!-- Font -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>swapnilkumar.in</title>
-  </head>
-  <body>
-    
-    <div class="verticalSpace"></div>
-
-    <!-- Header Portion -->
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-md-10">
-                <h3 class="customHeader" style="text-align: left;">swapnilkumar.in</h3>
-            </div>
-<!-- 
-            <div class="col-md-2 align-middle">
-                
-
-            </div> -->
-            
-        </div>
-       
-        <hr class="customHorizontalRule">
-    </div>
-
-     
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-    <!-- <div class="verticalSpace"></div> -->
+  <!-- SEO Meta Tags -->
+  <title>Swapnil Kumar | Specialist Software Engineer</title>
+  <meta name="description" content="Portfolio and Technical Blog of Swapnil Kumar, Specialist Software Engineer at Vanderlande. Expertise in CI/CD, Platform Engineering, PowerShell and Automation.">
+  <meta name="keywords" content="Swapnil Kumar, DevOps, Platform Engineering, Specialist Software Engineer, CI/CD, PowerShell, Python, Vanderlande, Automation">
+  <meta name="author" content="Swapnil Kumar">
+  
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="Swapnil Kumar | Specialist Software Engineer">
+  <meta property="og:description" content="Portfolio and Technical Blog of Swapnil Kumar. Focuses on CI/CD, Platform Engineering, PowerShell and Automation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapnilkr.github.io/">
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  
+  <!-- CDNs for Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Marked.js (Markdown parsing) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Highlight.js (Code Syntax Highlighting) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<div class="container-fluid" style="overflow:auto;height:500px;">
-
-  
-  
-<!-- Main Content -->
-    <div class="container">
-  
-      <!-- Corona Section -->
-  <div class="row">
-  
-  <div class="col-md-12">
-    <marquee><a href="https://covidout.in" target="_blank"><h6 class="coronaCSS">Latest Corona Updates</h6></a></marquee>
-    </div> 
-  
+  <!-- Reading Progress Bar (Visible only on Article Reader) -->
+  <div class="reading-progress-container">
+    <div class="reading-progress-bar" id="reading-progress"></div>
   </div>
 
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><span><img src="img/medium.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><span><img src="img/soundcloud.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="linkedin-tab" data-toggle="tab" href="#linkedin" role="tab" aria-controls="linkedin" aria-selected="false"><span><img src="img/linkedin.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <!-- Contact -->
-            <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><span><img src="img/contact.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <!-- Contact end -->
-          
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <br><br>
-              
-                    <h4>the Untold</h4>
-                    <article class="articleMedium">I’ve been wondering for more than 4 months on the silence of my heart for the future to say a few words to me. But I am left with “acceptance is hard” rule to follow. I’ve been trying for what to do next and with what confidence I am left with, I see some glasses empty even when they are filled by half. The brain is something which never rests, not even when its night time. You’re filled with infinite memories to either distract you or sometimes tells you to live with what you are dealing with now. But, you are a person with stubborn quality, you don’t want to believe in what has already happened with you. We say life is what it is, but no “life is what you make it”. If you mould it the way you think, it can be crafted that way...
-                        
-                    <a href="https://medium.com/@swapnilkr/the-untold-3688757d70af" target="_blank">Read more</a>
-                    </article>
-                    
-                    <br><br>
-
-                    <h4>A visit to new possibilities</h4>
-                    <article class="articleMedium">It’s not easy to just forget and move on in life for people like us, forgetting here is those instances which made some differences in the daily routine, the thoughts, the approaches, the plans and most importantly the Life. I wouldn’t be just considering myself as the writer of this blog but maybe I am considering some of us with the same thought. When such a situation occurs we come to chose the right wrong without even considering the fact whether its right or wrong. I wanted some change in my life to just restart the whole thing, I wished for some reset button that could just refresh my memories only with the good ones and not a bad one anymore. But that’s quite impossible for now. One of my friends asked me to move to a place, a cold one instead just for fun and a changeover, I accepted the invitation without considering any fact. “Fun”...
-                    <a href="https://medium.com/@swapnilkr/a-visit-to-new-possibilities-60ecc1a4b24c" target="_blank">Read more</a>
-                    </article>
-
-                <br><br>
-            </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <br><br>
-                
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741695518&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            
-            </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <!-- Contact Details -->
-                <br><br>
-              <div class="row">
-               
-                <div class="col-md-4">
-                  <img src="img/me-contact1.png" height="100%" width="100%" style="border-radius:10px;">
-                </div>
-
-                <div class="col-md-8">
-                 <h3>Lets Connect !</h3><hr>
-                 <!-- <h6>swapnil13cs56@gmail.com</h6> -->
-
-                 <!-- Contact Form -->
-                
-                 <form action="https://formspree.io/myywaaby" method="POST">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Your Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="_replyto" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <div class="form-group">
-                    <label for="nameOfSender">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="nameOfSender">
-                  </div>
-                 
-                  <button type="submit" class="btn btn-success connectBtn" value="Send">Connect</button>
-                </form>
-
-                </div>
-
-                
-              
-              </div>
-            </div>
-
-         
-
-             <div id="content"></div> 
-
-            <div class="tab-pane fade" id="linkedin" role="tabpanel" aria-labelledby="linkedin-tab">
-              <br><br>
-              <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="swapnilkr"><a class="LI-simple-link" href='https://in.linkedin.com/in/swapnilkr?trk=profile-badge'>Swapnil Kumar</a></div>
-          </div>
-
-          </div>
-         </div> 
+  <!-- Mobile Top Header -->
+  <header class="mobile-header">
+    <div class="brand-section" style="margin-bottom: 0;">
+      <div class="brand-logo">S</div>
+      <div class="brand-title">swapnillens.in</div>
     </div>
+    <button class="hamburger" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
 
-  </div>
-  
-    <footer class="footer">
-        <div class="container">
-          <span><a href="https://www.instagram.com/soup_lazy/" target="_blank" class="social"><i class="fab fa-instagram fa-2x"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://medium.com/@swapnilkr" target="_blank" class="social"><i class="fab fa-medium fa-2x"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/swapnil.lazybone" target="_blank" class="social"><i class="fab fa-facebook fa-2x"></i></a></span>
-
-         
-        </div>
-      </footer>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar-drawer">
+      <div class="brand-section">
+        <div class="brand-logo">S</div>
+        <div class="brand-title">swapnillens.in</div>
+      </div>
       
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  </body>
+      <nav style="flex-grow: 1;">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-item-link" data-route="home"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#about" class="nav-item-link" data-route="about"><i class="fas fa-user-tie"></i> About Me</a></li>
+          <li><a href="#resume" class="nav-item-link" data-route="resume"><i class="fas fa-file-invoice"></i> Resume / CV</a></li>
+          <li><a href="#projects" class="nav-item-link" data-route="projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+          <li><a href="#ai-lab" class="nav-item-link" data-route="ai-lab"><i class="fas fa-microchip"></i> AI Lab</a></li>
+          <li><a href="#articles" class="nav-item-link" data-route="articles"><i class="fas fa-newspaper"></i> Articles</a></li>
+          <li><a href="#ideas" class="nav-item-link" data-route="ideas"><i class="fas fa-lightbulb"></i> Ideas Log</a></li>
+          <li><a href="#learning" class="nav-item-link" data-route="learning"><i class="fas fa-graduation-cap"></i> Learning Journal</a></li>
+          <li><a href="#speaking" class="nav-item-link" data-route="speaking"><i class="fas fa-microphone-alt"></i> Speaking</a></li>
+          <li><a href="#resources" class="nav-item-link" data-route="resources"><i class="fas fa-laptop-code"></i> Resources</a></li>
+          <li><a href="#contact" class="nav-item-link" data-route="contact"><i class="fas fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <p>&copy; 2026 Swapnil Kumar</p>
+        <p style="margin-top: 0.25rem; font-size: 0.7rem;"><a href="#privacy" style="color: var(--text-muted); text-decoration: underline;">Privacy Policy</a></p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div class="top-bar">
+        <div class="search-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="search-input" id="global-search" placeholder="Type / to search articles, projects or scripts...">
+        </div>
+        <div class="profile-quick">
+          <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">Swapnil Kumar</span>
+          <div class="profile-avatar">SK</div>
+        </div>
+      </div>
+
+      <!-- Active View Content Container -->
+      <section class="view-section" id="app-view">
+        <!-- Rendered dynamically by app.js -->
+        <div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+          <p style="color: var(--text-muted);"><i class="fas fa-spinner fa-spin fa-2x"></i> Loading application...</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top-btn" aria-label="Scroll Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Core JavaScript Router & Application Logic -->
+  <script src="js/app.js"></script>
+</body>
 </html>

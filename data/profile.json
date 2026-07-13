@@ -1,0 +1,23 @@
+{
+  "name": "Swapnil Kumar",
+  "title": "Specialist Software Engineer",
+  "company": "Vanderlande",
+  "department": "System Team",
+  "location": "Pune, India",
+  "summary": "Specialist Software Engineer with expertise in CI/CD architecture, DevOps enablement, automation, AI-assisted engineering and software delivery platforms. Focused on improving developer experience, system resilience, and deployment pipelines.",
+  "philosophy": "Platform engineering is about reducing cognitive load. Documentation-as-code and automation are not optional; they are the bedrock of high-performing engineering teams.",
+  "statistics": [
+    { "label": "Years in DevOps & Platform", "value": "8+" },
+    { "label": "CI/CD Pipelines Built", "value": "150+" },
+    { "label": "Automation Scripts", "value": "500+" },
+    { "label": "Developer Efficiency Boost", "value": "40%" }
+  ],
+  "socials": {
+    "github": "https://github.com/swapnilkr",
+    "linkedin": "https://linkedin.com/in/swapnilkr",
+    "medium": "https://medium.com/@swapnilkr",
+    "instagram": "https://instagram.com/soup_lazy",
+    "email": "swapnil13cs56@gmail.com",
+    "location": "Pune, Maharashtra, India"
+  }
+}

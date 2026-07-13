@@ -1,0 +1,30 @@
+[
+  {
+    "title": "DocuLint: Auto-checking code comment sync with external docs",
+    "category": "Documentation",
+    "status": "Researching",
+    "description": "A GitHub Action that parses code files for documentation links (e.g. references to Notion or Markdown files) and flags outdated documentation by comparing code edit timestamps with the documentation update timestamps.",
+    "impact": "High DevEx improvement"
+  },
+  {
+    "title": "Micro-agent CLI for local CI/CD debugging",
+    "category": "AI & DevOps",
+    "status": "Brainstorming",
+    "description": "A local terminal tool powered by a lightweight local model (like Llama-3-8B) that parses Bamboo or GitHub Actions build failure log files locally, isolates the exact failing script line, and proposes a git diff to fix it.",
+    "impact": "Saves hours of troubleshooting"
+  },
+  {
+    "title": "Zero-Config Self-Hosted Dashboard",
+    "category": "Systems",
+    "status": "Draft",
+    "description": "A single-binary (Go/Rust) web application that scans local Docker sockets and network ports, automatically mapping and showing a gorgeous dashboard of all self-hosted services running in a home lab.",
+    "impact": "Home-lab management simplified"
+  },
+  {
+    "title": "Git Commit 'Refactor' Explainer",
+    "category": "AI",
+    "status": "Brainstorming",
+    "description": "A local hook that uses LLMs to convert git diffs into human-readable Changelog summaries in plain English, categorization tags, and updates a local README file dynamically.",
+    "impact": "Keeps release logs accurate"
+  }
+]

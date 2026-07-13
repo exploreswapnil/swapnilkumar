@@ -1,0 +1,86 @@
+{
+  "prompts": [
+    {
+      "id": "prompt-doc-generator",
+      "title": "Architecture Document Generator",
+      "category": "Documentation",
+      "description": "System prompt for generating standard Architecture Decision Records (ADRs) or technical specification documents.",
+      "template": "You are a Specialist Software Architect. Analyze the following technical requirements and write a structured Architecture Decision Record (ADR) following the template below:\n\n# Architecture Decision Record: [Title]\n\n* **Status**: Proposed / Approved / Superseded\n* **Context**: [Provide background details, constraints, and business needs]\n* **Decision**: [Clear, concise declaration of the architecture decision]\n* **Consequences**: [Describe both positive and negative consequences, side effects, and trade-offs]\n* **Verification**: [How will we verify this architecture works?]\n\nRequirements:\n[Insert Requirements Here]"
+    },
+    {
+      "id": "prompt-powershell-refactoring",
+      "title": "Cross-Platform PowerShell Code Reviewer",
+      "category": "Scripting",
+      "description": "Reviews Windows PowerShell scripts and suggests edits to ensure full compatibility with PowerShell Core on Linux.",
+      "template": "You are an expert platform automation specialist. Review the following PowerShell script to ensure it is cross-platform compatible (running on both Windows PowerShell 5.1 and PowerShell Core 7+ on Linux):\n\n1. Replace any OS-specific paths with [IO.Path]::Combine() or cross-platform slashes.\n2. Ensure all external command calls (e.g. curl, git) handle execution status codes correctly ($LASTEXITCODE).\n3. Flag any Windows-specific WMI/CIM cmdlets and offer multi-platform alternatives (e.g., querying environment variables or config files).\n\nScript:\n[Insert Script Here]"
+    },
+    {
+      "id": "prompt-dockerfile-optimizer",
+      "title": "Production Dockerfile Optimizer",
+      "category": "DevOps",
+      "description": "Refactors Dockerfiles to decrease image size, minimize layer count, and improve security.",
+      "template": "You are a DevOps Security Engineer. Optimize the following Dockerfile for production deployment. You must:\n- Use lightweight base images (e.g. alpine, distroless).\n- Utilize multi-stage builds to separate build dependencies from runtime dependencies.\n- Ensure the application is NOT running as root (create a non-system user/group).\n- Leverage build cache by copying dependency files (like package.json, requirements.txt) first.\n\nDockerfile:\n[Insert Dockerfile Here]"
+    }
+  ],
+  "llms": [
+    {
+      "name": "Claude 3.5 Sonnet",
+      "developer": "Anthropic",
+      "context": "200k tokens",
+      "cost_in": "$3.00 / M",
+      "cost_out": "$15.00 / M",
+      "specialty": "Coding, reasoning, complex system design",
+      "score": 9.5
+    },
+    {
+      "name": "GPT-4o",
+      "developer": "OpenAI",
+      "context": "128k tokens",
+      "cost_in": "$5.00 / M",
+      "cost_out": "$15.00 / M",
+      "specialty": "Speed, function calling, multimodal inputs",
+      "score": 9.2
+    },
+    {
+      "name": "Gemini 1.5 Pro",
+      "developer": "Google",
+      "context": "2M tokens",
+      "cost_in": "$3.50 / M",
+      "cost_out": "$10.50 / M",
+      "specialty": "Extraordinary context length, video parsing, repository audits",
+      "score": 9.3
+    },
+    {
+      "name": "Llama 3 70B",
+      "developer": "Meta (Open Source)",
+      "context": "8k tokens",
+      "cost_in": "$0.60 / M (approx)",
+      "cost_out": "$0.60 / M (approx)",
+      "specialty": "Self-hosting, lightweight fine-tuning, general tasks",
+      "score": 8.5
+    }
+  ],
+  "simulations": [
+    {
+      "id": "sim-pr-reviewer",
+      "title": "PR Review Automation",
+      "difficulty": "Intermediate",
+      "steps": [
+        { "agent": "Planner", "action": "Analyzing PR payload", "details": "PR #42 opened in repo 'cicd-toolkit'. Reading git diff...", "status": "info" },
+        { "agent": "Scanner", "action": "Executing static code checks", "details": "Running PSScriptAnalyzer on modified powershell files. Found 2 violations.", "status": "warning" },
+        { "agent": "Critic", "action": "Verifying security guidelines", "details": "Scanning diff for hardcoded credentials. Detected potential AWS Secret Key on line 45 of bootstrap.ps1.", "status": "error" },
+        { "agent": "Reporter", "action": "Posting feedback comments", "details": "Creating review comment on Bitbucket PR #42 warning developer about hardcoded secret and styling violations.", "status": "success" }
+      ]
+    },
+    {
+      "id": "sim-doc-generator",
+      "title": "Architecture Doc Auto-Update",
+      "difficulty": "Advanced",
+      "steps": [
+        { "agent": "Planner", "action": "Scanning git history", "details": "Scanning last 5 commits for architectural changes. Identified a database migration from SQLite to Postgres.", "status": "info" },
+        { "agent": "Coder", "action": "Updating ADR folder", "details": "Locating ADR-0024.md. Appending changes section detailing migration constraints and server configs.", "status": "info" },
+        { "agent": "Validator", "action": "Verifying site deployment", "details": "Running documentation compiler. All links intact, HTML output compiles cleanly.", "status": "success" }
+      ]
+    }
+  ]
+}

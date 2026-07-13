@@ -1,0 +1,78 @@
+{
+  "experience": [
+    {
+      "role": "Specialist Software Engineer",
+      "company": "Vanderlande",
+      "period": "2021 - Present",
+      "location": "Pune, India",
+      "description": "Led system team DevOps and platform engineering efforts. Focused on build infrastructure optimization, CI/CD platform reliability, developer enablement, and automated governance.",
+      "bullet_points": [
+        "Architected and standardized enterprise-scale CI/CD pipelines using Bamboo and GitHub Actions, cutting delivery build cycle time by 30%.",
+        "Configured and maintained JFrog Artifactory clusters and SonarQube platforms to ensure secure, compliant artifact caching and code-quality gate checks.",
+        "Developed custom PowerShell and Python automation scripts to streamline developer environments, automated repository setups, and secret rotations.",
+        "Championed 'Documentation-as-Code' methodologies, aligning developers, QA, and operations around a single markdown-driven truth."
+      ]
+    },
+    {
+      "role": "Senior DevOps Engineer",
+      "company": "Tech Solutions Corp",
+      "period": "2018 - 2021",
+      "location": "Pune, India",
+      "description": "Responsible for managing software delivery tools, infrastructure-as-code deployments, and automated testing integrations.",
+      "bullet_points": [
+        "Built containerized build agents with Docker, reducing environment provisioning time from hours to minutes.",
+        "Migrated legacy build systems from manual servers to infrastructure-as-code templates, managing over 50 projects.",
+        "Implemented REST API integrations between Jira, Bitbucket, and CI servers to create end-to-end audit trails for compliance.",
+        "Automated package management repositories and dependency scanning processes."
+      ]
+    },
+    {
+      "role": "Software Engineer (DevOps & Tools)",
+      "company": "Enterprise Software Ltd",
+      "period": "2016 - 2018",
+      "location": "Pune, India",
+      "description": "Worked on build scripting, test automation, and infrastructure health monitoring.",
+      "bullet_points": [
+        "Managed Windows and Linux server environments, automating patch management and build tasks via PowerShell and Bash.",
+        "Integrated automated static analysis tools into developer branch checks, decreasing build-failure rates in staging by 25%."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "CI/CD & DevOps",
+      "items": ["Bamboo", "GitHub Actions", "Bitbucket Pipelines", "Azure DevOps concepts", "Git"]
+    },
+    {
+      "category": "Programming & Scripting",
+      "items": ["PowerShell", "Python", "REST APIs", "Bash", "JavaScript"]
+    },
+    {
+      "category": "Infrastructure & Tools",
+      "items": ["Docker", "JFrog Artifactory", "SonarQube", "Linux", "Windows Server"]
+    },
+    {
+      "category": "Methodologies & Interests",
+      "items": ["Platform Engineering", "Documentation-as-Code", "Developer Experience (DevEx)", "Agentic AI", "Prompt Engineering"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.E.) in Computer Science & Engineering",
+      "institution": "Pune University",
+      "period": "2012 - 2016"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Jenkins Engineer",
+      "issuer": "CloudBees",
+      "date": "2019"
+    },
+    {
+      "name": "Docker Certified Associate",
+      "issuer": "Docker",
+      "date": "2018"
+    }
+  ]
+}

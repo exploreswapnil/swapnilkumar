@@ -1,0 +1,68 @@
+[
+  {
+    "id": "doc-as-code",
+    "name": "Documentation-as-Code Platform",
+    "description": "A workflow pipeline that generates, validates, and deploys engineering documentation from markdown repositories automatically.",
+    "architecture": "Markdown source files are committed to Git -> Validated by Python scripts (link checking & spelling) -> Transformed by static site generator -> Deployed to secure server via Bamboo CI.",
+    "technology": ["Markdown", "Python", "Git", "Bamboo", "Shell"],
+    "lessons": "Managing internal links across hundreds of documentation pages is hard. We solved it by building a custom dependency-graph generator in Python that runs on every commit.",
+    "repo": "https://github.com/swapnilkr/doc-as-code-pipeline",
+    "docs": "#/resources",
+    "status": "Production"
+  },
+  {
+    "id": "ai-doc-assistant",
+    "name": "AI Documentation Assistant",
+    "description": "An LLM-backed helper tool that reviews code diffs and writes update drafts for system architecture documents.",
+    "architecture": "Git pull request hook triggers Python script -> Python extracts diff and sends to OpenAI/Anthropic API with custom system prompts -> Generates markdown diff -> Appends suggested changes to PR comments.",
+    "technology": ["Python", "LLMs", "Git", "REST APIs", "Prompt Engineering"],
+    "lessons": "Large code diffs can hit token limit restrictions and cause hallucinatory suggestions. We implemented chunking and AST-based filter methods to only feed relevant changes to the model.",
+    "repo": "https://github.com/swapnilkr/ai-doc-assistant",
+    "docs": "#/ai-lab",
+    "status": "Beta"
+  },
+  {
+    "id": "pr-review-automation",
+    "name": "PR Review Automation System",
+    "description": "A self-hosted service that runs static security scans and code style audits on Bitbucket pull requests using lightweight Webhooks.",
+    "architecture": "Bitbucket Webhook -> Python Flask listener -> Executes custom SonarQube quality gate API calls -> Posts feedback reports directly back into Bitbucket as review comments.",
+    "technology": ["Python", "Flask", "Bitbucket", "SonarQube", "REST APIs"],
+    "lessons": "Webhook traffic spikes can overload single threads. We migrated the system to run on a lightweight celery task worker pattern, resolving reliability bottlenecks.",
+    "repo": "https://github.com/swapnilkr/pr-automation",
+    "docs": "#/projects",
+    "status": "Production"
+  },
+  {
+    "id": "rpi-home-server",
+    "name": "Raspberry Pi Home Server Lab",
+    "description": "A self-hosted home server infrastructure cluster for managing backups, local media streaming, and private DNS servers.",
+    "architecture": "Raspberry Pi 4 running Ubuntu Server -> Docker Compose orchestrating Pi-hole (DNS filter), Plex (Media Server), Samba (Backups), and Nginx (Reverse Proxy).",
+    "technology": ["Docker", "Linux", "Nginx", "Self-Hosting", "YAML"],
+    "lessons": "SD cards wear out quickly under persistent write operations. Moving the root operating system mount and cache directories to a solid-state drive (SSD) over USB 3.0 drastically improved speed and durability.",
+    "repo": "https://github.com/swapnilkr/rpi-home-lab",
+    "docs": "#/ideas",
+    "status": "Active"
+  },
+  {
+    "id": "cicd-toolkit",
+    "name": "CI/CD Automation Toolkit",
+    "description": "A reusable library of PowerShell modules and Dockerized templates for bootstrapping new deployment pipelines fast.",
+    "architecture": "Modular PowerShell script libraries -> Published as JFrog Artifactory modules -> Loaded into Bamboo and Azure DevOps build pipelines to standardise build steps.",
+    "technology": ["PowerShell", "Docker", "JFrog Artifactory", "Windows", "Linux"],
+    "lessons": "Writing cross-platform scripts (Windows PowerShell vs PowerShell Core on Linux) requires careful handling of path separators and environmental variables. We instituted a strict linting process using PSScriptAnalyzer.",
+    "repo": "https://github.com/swapnilkr/cicd-toolkit",
+    "docs": "#/resources",
+    "status": "Production"
+  },
+  {
+    "id": "kb-generator",
+    "name": "Knowledge Base Generator",
+    "description": "A tool that parses engineering repositories and generates structured searchable directories of architectural designs.",
+    "architecture": "Local directory scanner -> Parses metadata in markdown front-matter -> Outputs static searchable HTML index with custom design elements.",
+    "technology": ["JavaScript", "HTML", "CSS", "Markdown", "Git"],
+    "lessons": "Writing client-side JS search with low memory footprint was key. We implemented a lightweight fuzzy string search index in vanilla JavaScript that works on client-side JSON files directly.",
+    "repo": "https://github.com/swapnilkr/kb-generator",
+    "docs": "#/resources",
+    "status": "Active"
+  }
+]
