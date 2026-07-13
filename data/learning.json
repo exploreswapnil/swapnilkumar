@@ -1,0 +1,59 @@
+{
+  "timeline": [
+    {
+      "date": "July 2026",
+      "event": "Exploring Multi-Agent Frameworks",
+      "description": "Researching AutoGen and CrewAI frameworks to understand how agents communicate and hand off tasks during software engineering processes."
+    },
+    {
+      "date": "March 2026",
+      "event": "Advanced Platform Engineering Study",
+      "description": "Deep-diving into Platform Engineering principles and cognitive load theory to apply in internal build infrastructures."
+    },
+    {
+      "date": "December 2025",
+      "event": "Docker Certified Associate Renewal",
+      "description": "Reviewed recent container runtime specifications, security sandboxing enhancements, and overlay network optimizations."
+    }
+  ],
+  "books": [
+    {
+      "title": "Team Topologies",
+      "author": "Matthew Skelton and Manuel Pais",
+      "status": "Completed",
+      "rating": "5/5",
+      "takeaway": "Organizing teams around platform concepts, stream alignment, and enabling structures is critical for reducing cognitive load."
+    },
+    {
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "status": "In Progress",
+      "rating": "Ongoing",
+      "takeaway": "Understanding trade-offs in storage engines, replication algorithms, and consensus protocol options."
+    }
+  ],
+  "courses": [
+    {
+      "title": "Architecting with Google Cloud Platform",
+      "issuer": "Coursera",
+      "status": "Completed"
+    },
+    {
+      "title": "Deep Learning Specialization",
+      "issuer": "DeepLearning.AI",
+      "status": "Completed"
+    }
+  ],
+  "daily_notes": [
+    {
+      "date": "2026-07-10",
+      "topic": "Bamboo API Quirks",
+      "notes": "When triggering builds programmatically using REST APIs, ensure content-type headers are set precisely to `application/json` and credentials use token-based authentication instead of base64 basic auth, as newer instances deprecate basic access."
+    },
+    {
+      "date": "2026-07-05",
+      "topic": "PowerShell Script Performance",
+      "notes": "Avoid using `+=` on standard arrays in loops since it recreates the array in memory each time. Instead, use `[System.Collections.Generic.List[Object]]` or pipeline output directly to variables to speed up processing of large lists."
+    }
+  ]
+}

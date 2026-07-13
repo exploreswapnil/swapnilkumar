@@ -1,0 +1,47 @@
+[
+  {
+    "category": "PowerShell Scripting",
+    "items": [
+      {
+        "title": "Robust Secret Rotation Script Template",
+        "description": "A cross-platform PowerShell script to verify, rotate, and log API key rotations securely with automatic rollback on error.",
+        "link": "https://github.com/swapnilkr/cicd-toolkit/blob/main/powershell/rotate-secrets.ps1",
+        "type": "Code Template"
+      },
+      {
+        "title": "Directory Sync & Hash Check utility",
+        "description": "Compares local folders to remote shares by hashing files concurrently, resolving speed issues in local deployment synchronizations.",
+        "link": "https://github.com/swapnilkr/cicd-toolkit/blob/main/powershell/sync-folders.ps1",
+        "type": "Code Script"
+      }
+    ]
+  },
+  {
+    "category": "CI/CD & DevOps Templates",
+    "items": [
+      {
+        "title": "Bamboo Specs YAML Boilerplate",
+        "description": "A standard YAML template for structuring multistage builds with Docker agents, SonarQube tests, and Artifactory releases.",
+        "link": "https://github.com/swapnilkr/cicd-toolkit/blob/main/templates/bamboo-specs.yaml",
+        "type": "YAML Template"
+      },
+      {
+        "title": "Multi-stage Dockerfile for Python services",
+        "description": "Optimized multi-stage Dockerfile that drops privileges to a non-root user and compiles assets in a separate build container.",
+        "link": "https://github.com/swapnilkr/cicd-toolkit/blob/main/templates/Dockerfile.python",
+        "type": "Dockerfile"
+      }
+    ]
+  },
+  {
+    "category": "Documentation Guides",
+    "items": [
+      {
+        "title": "Standard ADR (Architecture Decision Record) Markdown template",
+        "description": "A ready-to-use template for documenting architecture choices in markdown alongside software code repositories.",
+        "link": "https://github.com/swapnilkr/doc-as-code-pipeline/blob/main/templates/adr-template.md",
+        "type": "Markdown Template"
+      }
+    ]
+  }
+]

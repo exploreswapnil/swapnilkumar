@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "platform-engineering-cognitive-load",
+    "title": "Platform Engineering: Reducing Cognitive Load in Modern Teams",
+    "date": "2024-03-15",
+    "category": "Platform Engineering",
+    "readTime": "6 min read",
+    "summary": "Why internal developer platforms (IDPs) are becoming critical for scaling software delivery. A look at minimizing developer friction through automated infrastructure and API abstractions.",
+    "file": "data/articles/platform-engineering-cognitive-load.md",
+    "featured": true
+  },
+  {
+    "slug": "modern-cicd-governance",
+    "title": "Modern CI/CD Governance: Balancing Speed and Security",
+    "date": "2024-05-10",
+    "category": "DevOps",
+    "readTime": "8 min read",
+    "summary": "How to build compliance checks and quality gates into deployment pipelines without slowing down developer velocity, using automated reviews and tool integrations.",
+    "file": "data/articles/modern-cicd-governance.md",
+    "featured": true
+  },
+  {
+    "slug": "the-untold",
+    "title": "The Untold",
+    "date": "2019-12-08",
+    "category": "Personal",
+    "readTime": "4 min read",
+    "summary": "A reflective piece exploring change, uncertainty, resilience, and taking control of one's narrative in the face of transition.",
+    "file": "data/articles/the-untold.md",
+    "mediumUrl": "https://medium.com/@swapnilkr/the-untold-3688757d70af",
+    "featured": false
+  },
+  {
+    "slug": "a-visit-to-new-possibilities",
+    "title": "A Visit to New Possibilities",
+    "date": "2019-12-25",
+    "category": "Personal",
+    "readTime": "5 min read",
+    "summary": "A travel log and personal essay about resetting priorities, stepping out of comfort zones, and discovering clarity through travel.",
+    "file": "data/articles/a-visit-to-new-possibilities.md",
+    "mediumUrl": "https://medium.com/@swapnilkr/a-visit-to-new-possibilities-60ecc1a4b24c",
+    "featured": false
+  }
+]
