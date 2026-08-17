@@ -1,40 +1,51 @@
 {
   "experience": [
     {
-      "role": "Specialist Software Engineer",
+      "role": "Associate Software Development Manager | CI/CD & DevOps Architecture",
       "company": "Vanderlande",
-      "period": "2021 - Present",
-      "location": "Pune, India",
-      "description": "Led system team DevOps and platform engineering efforts. Focused on build infrastructure optimization, CI/CD platform reliability, developer enablement, and automated governance.",
+      "period": "April 2026 - Present",
+      "location": "Pune, India (Hybrid)",
+      "description": "Working at the intersection of systems, teams, and delivery—bringing platform thinking and continuous improvement into engineering.",
       "bullet_points": [
-        "Architected and standardized enterprise-scale CI/CD pipelines using Bamboo and GitHub Actions, cutting delivery build cycle time by 30%.",
-        "Configured and maintained JFrog Artifactory clusters and SonarQube platforms to ensure secure, compliant artifact caching and code-quality gate checks.",
-        "Developed custom PowerShell and Python automation scripts to streamline developer environments, automated repository setups, and secret rotations.",
-        "Championed 'Documentation-as-Code' methodologies, aligning developers, QA, and operations around a single markdown-driven truth."
+        "Coordinating systems teams to scale cloud infrastructure, CI/CD processes, and platform governance standards.",
+        "Implementing platform-as-a-service initiatives to lower developer friction and improve release velocity.",
+        "Overseeing architectural guidelines for CI/CD pipelines, repository tooling, and containerization."
       ]
     },
     {
-      "role": "Senior DevOps Engineer",
-      "company": "Tech Solutions Corp",
-      "period": "2018 - 2021",
+      "role": "Sr. Technologist - R&D Software",
+      "company": "Vanderlande",
+      "period": "July 2023 - April 2026",
       "location": "Pune, India",
-      "description": "Responsible for managing software delivery tools, infrastructure-as-code deployments, and automated testing integrations.",
+      "description": "Engineered automated software deployment systems and continuous integration platforms inside R&D.",
       "bullet_points": [
-        "Built containerized build agents with Docker, reducing environment provisioning time from hours to minutes.",
-        "Migrated legacy build systems from manual servers to infrastructure-as-code templates, managing over 50 projects.",
-        "Implemented REST API integrations between Jira, Bitbucket, and CI servers to create end-to-end audit trails for compliance.",
-        "Automated package management repositories and dependency scanning processes."
+        "Streamlined build and artifact caching systems, dropping pipeline build durations significantly.",
+        "Developed custom PowerShell and Python configurations for registry integrations and automated checks.",
+        "Managed Artifactory storage repositories, SonarQube instances, and server cluster operations."
       ]
     },
     {
-      "role": "Software Engineer (DevOps & Tools)",
-      "company": "Enterprise Software Ltd",
-      "period": "2016 - 2018",
+      "role": "Senior DevOps Engineer / Sr. Level 1",
+      "company": "Globant",
+      "period": "June 2021 - June 2023",
       "location": "Pune, India",
-      "description": "Worked on build scripting, test automation, and infrastructure health monitoring.",
+      "description": "Designed, implemented, and monitored Kubernetes container configurations and pipeline deployment tools.",
       "bullet_points": [
-        "Managed Windows and Linux server environments, automating patch management and build tasks via PowerShell and Bash.",
-        "Integrated automated static analysis tools into developer branch checks, decreasing build-failure rates in staging by 25%."
+        "Orchestrated cloud deployment workflows and cluster node provisioning using automation templates.",
+        "Wrote clean shell and script modules to validate build outputs and monitor health logs.",
+        "Collaborated with project groups to configure security scanners and environment provisioning hooks."
+      ]
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "Optimus Information Inc.",
+      "period": "May 2017 - June 2021",
+      "location": "Noida, India",
+      "description": "Developed and automated backend services, database migrations, and cloud administration environments.",
+      "bullet_points": [
+        "Promoted from Software Engineer Trainee to Software Engineer and Senior Software Engineer.",
+        "Engineered cloud infrastructure deployments and integrated REST API client configurations.",
+        "Maintained client-facing software systems, resolving bugs and scaling server capabilities."
       ]
     }
   ],

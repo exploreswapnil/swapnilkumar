@@ -1,0 +1,702 @@
+[
+  {
+    "name": "GitHub Copilot",
+    "desc": "The pioneer AI pair programmer that provides autocomplete style suggestions as you type.",
+    "developer": "GitHub / Microsoft",
+    "link": "https://github.com/features/copilot",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Cursor",
+    "desc": "An AI-first code editor fork of VS Code designed for speed and deep AI integrations.",
+    "developer": "Anysphere",
+    "link": "https://cursor.sh",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Windsurf",
+    "desc": "The first agentic IDE where humans and AI work as a seamless flow (Flow state agent).",
+    "developer": "Codeium",
+    "link": "https://codeium.com/windsurf",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Cody",
+    "desc": "An open-source AI coding assistant for writing, explaining, and testing code in editor.",
+    "developer": "Sourcegraph",
+    "link": "https://sourcegraph.com/cody",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Continue",
+    "desc": "An open-source autopilot for software development that integrates custom LLMs easily.",
+    "developer": "Continue Dev",
+    "link": "https://github.com/continuedev/continue",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Aider",
+    "desc": "Command-line chat tool that lets you code with AI in your local git repository.",
+    "developer": "Paul Gauthier",
+    "link": "https://aider.chat",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Supermaven",
+    "desc": "An ultra-fast, long-context autocomplete engine with a 300,000 token context window.",
+    "developer": "Supermaven",
+    "link": "https://supermaven.com",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Double.bot",
+    "desc": "An AI coding assistant specializing in highly accurate auto-completions and context awareness.",
+    "developer": "Double Bot",
+    "link": "https://double.bot",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Tabnine",
+    "desc": "An established AI assistant focusing on enterprise security and private hosting.",
+    "developer": "Tabnine",
+    "link": "https://tabnine.com",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Amazon Q Developer",
+    "desc": "Generative AI assistant for software development tailored for AWS architectures and services.",
+    "developer": "Amazon Web Services",
+    "link": "https://aws.amazon.com/q/developer",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Fauxpilot",
+    "desc": "An open-source, self-hosted alternative to GitHub Copilot using NVIDIA Triton and CodeGen.",
+    "developer": "Fauxpilot Team",
+    "link": "https://github.com/fauxpilot/fauxpilot",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Refact.ai",
+    "desc": "An open-source AI assistant offering autocomplete, refactoring, and in-editor chat.",
+    "developer": "Refact",
+    "link": "https://refact.ai",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "MutableAI",
+    "desc": "AI developer tools that build production-quality code and maintain documentation automatically.",
+    "developer": "Mutable AI",
+    "link": "https://mutable.ai",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Bito",
+    "desc": "AI assistant that helps developers write code, build test cases, and explain complex logic.",
+    "developer": "Bito",
+    "link": "https://bito.ai",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "StarCoder Copilot",
+    "desc": "A local browser extension using HuggingFace's open StarCoder models for autocomplete.",
+    "developer": "Hugging Face",
+    "link": "https://huggingface.co/blog/starcoder",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "CodeGPT",
+    "desc": "Popular VS Code extension that connects editors to multiple external LLM APIs.",
+    "developer": "CodeGPT Team",
+    "link": "https://codegpt.co",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Polycoder",
+    "desc": "An open-source language model for code based on GPT-2, trained on 12 programming languages.",
+    "developer": "Carnegie Mellon University",
+    "link": "https://github.com/VHRanger/polycoder",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "CodeLlama Integration",
+    "desc": "Custom local developer copilot configured around Meta's fine-tuned Code Llama model family.",
+    "developer": "Meta AI",
+    "link": "https://github.com/facebookresearch/codellama",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "LlamaCoder",
+    "desc": "Open-source developer tool for generating entire web apps with Llama 3 in one click.",
+    "developer": "Nutlope",
+    "link": "https://github.com/nutlope/llamacoder",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "DeepSeek Coder Assistant",
+    "desc": "An integration using the powerful DeepSeek-Coder model for highly accurate code generation.",
+    "developer": "DeepSeek AI",
+    "link": "https://github.com/deepseek-ai/DeepSeek-Coder",
+    "category": "Coding Assistants"
+  },
+  {
+    "name": "Devin",
+    "desc": "The world's first fully autonomous AI software engineer, capable of planning, executing, and deploying.",
+    "developer": "Cognition Labs",
+    "link": "https://cognition.labs/devin",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Claude Engineer",
+    "desc": "A command-line interface that enables Claude to interact with your local directory and run files.",
+    "developer": "Doriand1",
+    "link": "https://github.com/Doriand1/claude-engineer",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "OpenDevin",
+    "desc": "An open-source project aiming to build an autonomous agent like Devin that can collaborate on code.",
+    "developer": "All-Hands AI",
+    "link": "https://github.com/All-Hands-AI/OpenDevin",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Sweep",
+    "desc": "An AI junior developer that turns bug reports and feature requests directly into pull requests.",
+    "developer": "Sweep AI",
+    "link": "https://github.com/sweepai/sweep",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "GPT-Pilot",
+    "desc": "An AI developer that builds production-ready applications from scratch while asking clarifying questions.",
+    "developer": "Pythagora",
+    "link": "https://github.com/Pythagora-io/gpt-pilot",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Mentat",
+    "desc": "An AI coding assistant that runs in your terminal, coordinating edits across multiple project files.",
+    "developer": "Mentat Author",
+    "link": "https://github.com/jplourde/mentat",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Plandex",
+    "desc": "An AI-powered developer agent that handles complex, multi-file tasks by organizing work in check-lists.",
+    "developer": "Plandex",
+    "link": "https://github.com/plandex-ai/plandex",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "AutoPR",
+    "desc": "An AI agent that automatically writes pull requests in response to issues created on GitHub.",
+    "developer": "AutoPR Team",
+    "link": "https://github.com/rgwood/AutoPR",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "CodiumAI pr-agent",
+    "desc": "An AI agent for automated pull request analysis, feedback, suggestions, and auto-generated descriptions.",
+    "developer": "Codium AI",
+    "link": "https://github.com/Codium-ai/pr-agent",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Smol Developer",
+    "desc": "A CLI agent that generates entire scaffolding and code files from a single markdown prompt.",
+    "developer": "swyx / smol-ai",
+    "link": "https://github.com/smol-ai/developer",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Grip",
+    "desc": "An autonomous AI software agent that reviews, debugs, and patches server deployment configurations.",
+    "developer": "Grip Security",
+    "link": "https://github.com/grip-dev/grip",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Metagpt",
+    "desc": "A multi-agent framework that behaves like a software company, assigning roles like PM, Architect, and Dev.",
+    "developer": "Geekan",
+    "link": "https://github.com/geekan/MetaGPT",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Aisera Software Agent",
+    "desc": "Enterprise agent designed for automating customer success pipelines and code configurations.",
+    "developer": "Aisera",
+    "link": "https://aisera.com",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "GitWit",
+    "desc": "A code generation agent for full-stack developers to create and modify git repositories using natural language.",
+    "developer": "GitWit",
+    "link": "https://gitwit.com",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "ChatDev",
+    "desc": "Virtual software development team executing roles like programmer, reviewer, and tester to build apps.",
+    "developer": "OpenBMB",
+    "link": "https://github.com/OpenBMB/ChatDev",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Morph",
+    "desc": "Autonomous agent for building backend APIs, database schemas, and migration scripts.",
+    "developer": "Morph Labs",
+    "link": "https://github.com/morph-labs",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Devika",
+    "desc": "An open-source agentic software developer model designed to compete with Devin in building features.",
+    "developer": "Mufeed VH",
+    "link": "https://github.com/stitionai/devika",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Refactoring.ai Agent",
+    "desc": "Autonomous refactoring agent specialized in reducing cognitive complexity in legacy codebases.",
+    "developer": "Refactor AI",
+    "link": "https://refactoring.ai",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Archy",
+    "desc": "An AI software architect agent that maps code repos, checks dependency circles, and draws flow diagrams.",
+    "developer": "Archy Team",
+    "link": "https://archy.design",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "BitBuilder",
+    "desc": "An AI tool that acts as a virtual junior developer, translating GitHub issues into code patches.",
+    "developer": "BitBuilder",
+    "link": "https://github.com/bitbuilder-ai/bitbuilder",
+    "category": "Autonomous Dev Agents"
+  },
+  {
+    "name": "Sqlite MCP",
+    "desc": "Provides secure, read/write SQL database interaction and schema inspection capabilities.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Filesystem MCP",
+    "desc": "Enables LLMs to read, write, and list files and directories inside specified local paths.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "GitHub MCP",
+    "desc": "Enables agents to interact with GitHub repos: manage issues, review pull requests, and commit code.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Postgres MCP",
+    "desc": "Connects LLMs to PostgreSQL databases, providing querying, table discovery, and schema insights.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Slack MCP",
+    "desc": "Allows AI agents to read channel logs, search history, post messages, and monitor team slack alerts.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Brave Search MCP",
+    "desc": "Enables agents to perform web searches and fetch web pages directly into their context window.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Memory MCP",
+    "desc": "Maintains persistent knowledge graphs and semantic facts across separate agentic conversations.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Git MCP",
+    "desc": "Gives LLMs local Git capabilities to check diffs, read logs, create branches, and stage changes.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Puppeteer MCP",
+    "desc": "Enables agents to control headless chromium browsers to take screenshots, scrape SPA websites, and fill forms.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Google Maps MCP",
+    "desc": "Provides location searches, route planning, coordinate mapping, and place details for agents.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Everything MCP",
+    "desc": "A reference server demonstrating all Model Context Protocol features: resources, prompts, and tools.",
+    "developer": "Model Context Protocol",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Docker MCP",
+    "desc": "Exposes Docker commands to AI agents, allowing them to start, inspect, and prune local containers.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Kubernetes MCP",
+    "desc": "Provides resource inspection (pods, namespaces, logs) inside Kubernetes clusters for AI assistants.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Airtable MCP",
+    "desc": "Connects AI tools directly to Airtable sheets for reading, editing, and mapping relational databases.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Confluence MCP",
+    "desc": "Allows agents to search, read, and write documentation pages on Atlassian Confluence workspaces.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Jira MCP",
+    "desc": "Allows agents to search ticket backlogs, create issues, transition statuses, and append ticket comments.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Linear MCP",
+    "desc": "Enables agents to fetch active sprint items, create tasks, and update workflow statuses on Linear.",
+    "developer": "Linear",
+    "link": "https://github.com/linear/mcp-server",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Sentry MCP",
+    "desc": "Retrieves error logs, stack traces, and issue frequencies from Sentry to help developer agents debug fast.",
+    "developer": "Sentry",
+    "link": "https://github.com/getsentry/mcp-server",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "ClickUp MCP",
+    "desc": "Synchronizes task status, assigns work, and posts alerts on ClickUp workspaces.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "Notion MCP",
+    "desc": "Reads workspace documents, edits block elements, and adds checklist logs on Notion pages.",
+    "developer": "Community Devs",
+    "link": "https://github.com/modelcontextprotocol/servers",
+    "category": "MCP Servers"
+  },
+  {
+    "name": "LangGraph",
+    "desc": "A framework for building stateful, multi-actor applications with LLMs, ideal for cyclic agent flows.",
+    "developer": "LangChain",
+    "link": "https://github.com/langchain-ai/langgraph",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "CrewAI",
+    "desc": "Framework for orchestrating role-playing, autonomous AI agents to collaborate on complex tasks.",
+    "developer": "CrewAI Inc",
+    "link": "https://github.com/crewAIInc/crewAI",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Microsoft AutoGen",
+    "desc": "A programming framework for agentic AI featuring multi-agent conversations and code execution.",
+    "developer": "Microsoft Research",
+    "link": "https://github.com/microsoft/autogen",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Agency Swarm",
+    "desc": "An agent orchestration framework based on OpenAI Assistants API focusing on clean delegation lanes.",
+    "developer": "Vrsen",
+    "link": "https://github.com/Vrsen/agency-swarm",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Julep",
+    "desc": "A platform for building stateful agents with long-term memory, custom tools, and user profiling.",
+    "developer": "Julep AI",
+    "link": "https://github.com/julep-ai/julep",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Camel",
+    "desc": "Role-playing communicative agent framework facilitating cooperative task execution between simulated agents.",
+    "developer": "CAMEL AI",
+    "link": "https://github.com/camel-ai/camel",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "SuperAGI",
+    "desc": "An open-source developer-first framework to build, manage, and run useful autonomous agents.",
+    "developer": "Transformer Labs",
+    "link": "https://github.com/TransformerLabs/superagi",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "LlamaIndex Workflows",
+    "desc": "An event-driven framework for orchestrating multi-agent architectures and RAG query pipelines.",
+    "developer": "LlamaIndex",
+    "link": "https://github.com/run-llama/llama_index",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Phidata",
+    "desc": "A framework for adding memory, data connections, and functional tools to standard language models.",
+    "developer": "Phidata",
+    "link": "https://github.com/phidata-hq/phidata",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Embedchain",
+    "desc": "A simple open-source framework to quickly load and index unstructured datasets into custom RAG agents.",
+    "developer": "Embedchain",
+    "link": "https://github.com/embedchain/embedchain",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Flowise",
+    "desc": "Drag & drop UI tool to build customized LLM orchestrations and agentic workflows visually.",
+    "developer": "Flowise AI",
+    "link": "https://github.com/FlowiseAI/Flowise",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "LangFlow",
+    "desc": "Visual IDE for LangChain and multi-agent systems, letting users build and test pipelines dynamically.",
+    "developer": "Logspace",
+    "link": "https://github.com/langflow-ai/langflow",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "BabyAGI",
+    "desc": "An early and influential Python script acting as a task-driven autonomous agent planner.",
+    "developer": "Yohei Nakajima",
+    "link": "https://github.com/yoheinakajima/babyagi",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "AutoGPT",
+    "desc": "One of the first open-source projects showcasing autonomous agent loop executing complex multi-step instructions.",
+    "developer": "Significant Gravitas",
+    "link": "https://github.com/Significant-Gravitas/AutoGPT",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Promptflow",
+    "desc": "A suite of developer tools designed to streamline the end-to-end development cycle of LLM-based applications.",
+    "developer": "Microsoft",
+    "link": "https://github.com/microsoft/promptflow",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Semantic Kernel",
+    "desc": "An SDK that integrates conventional programming languages like C# and Java with AI prompts and agents.",
+    "developer": "Microsoft",
+    "link": "https://github.com/microsoft/semantic-kernel",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Haystack",
+    "desc": "An orchestration framework to construct multi-agent search systems, question-answering, and semantic engines.",
+    "developer": "deepset",
+    "link": "https://github.com/deepset-ai/haystack",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Magentic-one",
+    "desc": "A generalist multi-agent system from Microsoft designed to solve complex web-based and local tasks.",
+    "developer": "Microsoft Research",
+    "link": "https://github.com/microsoft/autogen/tree/main/python/packages/microsoft-autogen-core",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Taskweaver",
+    "desc": "A code-first agent framework that plans tasks, executes Python scripts, and manipulates tables.",
+    "developer": "Microsoft",
+    "link": "https://github.com/microsoft/TaskWeaver",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Fixie",
+    "desc": "An agent platform designed for integrating enterprise applications, databases, and APIs into conversational UI.",
+    "developer": "Fixie AI",
+    "link": "https://github.com/fixie-ai/fixie-sdk",
+    "category": "Multi-Agent Frameworks"
+  },
+  {
+    "name": "Docker Expert Copilot",
+    "desc": "A custom Copilot agent specialized in writing, analyzing, and optimizing Dockerfiles and Compose configurations.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/docker-expert",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Kubernetes Advisor Agent",
+    "desc": "Analyzes cluster configs, generates Helm charts, and drafts Kubernetes YAML deployments.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/k8s-advisor",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Code Reviewer Copilot",
+    "desc": "Scans pull requests for code quality issues, security vulnerabilities, and design patterns.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/code-reviewer",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Arch Linux Expert",
+    "desc": "Specialized terminal helper that troubleshoots Pacman errors and configures system services.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/arch-expert",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Commit Message Drafter",
+    "desc": "Reviews local Git diffs and suggests highly structured conventional commit messages.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/commit-drafter",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "SQL Optimizer Copilot",
+    "desc": "Analyzes slow database queries and proposes performance indexing strategies.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/sql-optimizer",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Bamboo CI Helper",
+    "desc": "Build assistant configured to draft and debug Bamboo build plans and agent allocations.",
+    "developer": "Platform Community",
+    "link": "https://github.com/awesome-copilot/bamboo-helper",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Python Clean Coder",
+    "desc": "Enforces PEP 8 compliance, suggests list comprehensions, and checks type hints.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/python-cleaner",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "API Mock Generator",
+    "desc": "Quickly generates mock servers and schemas based on raw JSON data formats.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/api-mocker",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Regex Wizard Agent",
+    "desc": "Explains complex regular expressions and generates safe matches for developer inputs.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/regex-wizard",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "TypeScript Transpiler Expert",
+    "desc": "Troubleshoots TS configuration flags and resolves complex type utility problems.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/ts-expert",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "CSS Flexbox/Grid Stylist",
+    "desc": "Draws layout mockups and generates clean responsive CSS codes.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/css-stylist",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Markdown Doc Validator",
+    "desc": "Validates links, headers, and code syntax blocks across documentation repositories.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/md-validator",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Security Auditor Copilot",
+    "desc": "Reviews dependencies for CVE vulnerabilities and checks scripts for secrets leak.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/security-audit",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Rust Borrow Checker Guru",
+    "desc": "Explains lifetime issues and assists developers in resolving compiler borrow checks.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/rust-borrow",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Bash Shell Checker",
+    "desc": "Validates shell syntax using ShellCheck API suggestions to avoid common traps.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/shell-checker",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Ansible Playbook Builder",
+    "desc": "Generates deployment playbooks, task lists, and vault configuration templates.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/ansible-builder",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "PowerShell Command Finder",
+    "desc": "Helps system administrators find appropriate cmdlets and syntax structures on Windows environments.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/powershell-finder",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Unit Test Generator",
+    "desc": "Automatically writes Jest, PyTest, or JUnit templates for target code files.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/test-generator",
+    "category": "Specialized Copilots"
+  },
+  {
+    "name": "Swagger OpenAPI Architect",
+    "desc": "Reviews REST API structures and generates YAML files conforming to standards.",
+    "developer": "Awesome-Copilot Contributors",
+    "link": "https://github.com/awesome-copilot/openapi-architect",
+    "category": "Specialized Copilots"
+  }
+]
