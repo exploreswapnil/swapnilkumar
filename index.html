@@ -34,7 +34,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
   
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2.0">
 </head>
 <body>
 
@@ -49,9 +49,9 @@
       <div class="brand-logo">S</div>
       <div class="brand-title">swapnillens.in</div>
     </div>
-    <button class="hamburger" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
-      <i class="fas fa-bars"></i>
-    </button>
+    <div class="profile-quick">
+      <div class="profile-avatar">SK</div>
+    </div>
   </header>
 
   <div class="app-container">
@@ -65,15 +65,9 @@
       <nav style="flex-grow: 1;">
         <ul class="nav-menu">
           <li><a href="#home" class="nav-item-link" data-route="home"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="#about" class="nav-item-link" data-route="about"><i class="fas fa-user-tie"></i> About Me</a></li>
-          <li><a href="#resume" class="nav-item-link" data-route="resume"><i class="fas fa-file-invoice"></i> Resume / CV</a></li>
           <li><a href="#projects" class="nav-item-link" data-route="projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
-          <li><a href="#ai-lab" class="nav-item-link" data-route="ai-lab"><i class="fas fa-microchip"></i> AI Lab</a></li>
-          <li><a href="#articles" class="nav-item-link" data-route="articles"><i class="fas fa-newspaper"></i> Articles</a></li>
-          <li><a href="#ideas" class="nav-item-link" data-route="ideas"><i class="fas fa-lightbulb"></i> Ideas Log</a></li>
-          <li><a href="#learning" class="nav-item-link" data-route="learning"><i class="fas fa-graduation-cap"></i> Learning Journal</a></li>
-          <li><a href="#speaking" class="nav-item-link" data-route="speaking"><i class="fas fa-microphone-alt"></i> Speaking</a></li>
-          <li><a href="#resources" class="nav-item-link" data-route="resources"><i class="fas fa-laptop-code"></i> Resources</a></li>
+          <li><a href="#agents" class="nav-item-link" data-route="agents"><i class="fas fa-robot"></i> Top 100 Agents</a></li>
+          <li><a href="#anime" class="nav-item-link" data-route="anime"><i class="fas fa-tv"></i> Top 100 Anime</a></li>
           <li><a href="#contact" class="nav-item-link" data-route="contact"><i class="fas fa-paper-plane"></i> Contact</a></li>
         </ul>
       </nav>
@@ -89,7 +83,7 @@
       <div class="top-bar">
         <div class="search-container">
           <i class="fas fa-search search-icon"></i>
-          <input type="text" class="search-input" id="global-search" placeholder="Type / to search articles, projects or scripts...">
+          <input type="text" class="search-input" id="global-search" placeholder="Type / to search projects, agents or anime...">
         </div>
         <div class="profile-quick">
           <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">Swapnil Kumar</span>
@@ -105,6 +99,42 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <!-- Bottom Navigation Bar (Visible only on mobile) -->
+  <nav class="bottom-nav" id="mobile-bottom-nav">
+    <a href="#home" class="bottom-nav-item" data-route="home">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="#projects" class="bottom-nav-item" data-route="projects">
+      <i class="fas fa-project-diagram"></i>
+      <span>Projects</span>
+    </a>
+    <a href="#agents" class="bottom-nav-item" data-route="agents">
+      <i class="fas fa-robot"></i>
+      <span>Agents</span>
+    </a>
+    <a href="#anime" class="bottom-nav-item" data-route="anime">
+      <i class="fas fa-tv"></i>
+      <span>Anime</span>
+    </a>
+    <button class="bottom-nav-item" id="bottom-nav-more" aria-label="More Menu">
+      <i class="fas fa-bars"></i>
+      <span>More</span>
+    </button>
+  </nav>
+
+  <!-- Fullscreen More Menu Overlay for mobile -->
+  <div class="mobile-more-overlay" id="mobile-more-overlay">
+    <div class="overlay-header">
+      <span class="overlay-title">Navigation</span>
+      <button class="overlay-close" id="overlay-close-btn" aria-label="Close Menu"><i class="fas fa-times"></i></button>
+    </div>
+    <ul class="overlay-menu">
+      <li><a href="#contact" class="overlay-link"><i class="fas fa-paper-plane"></i> Contact</a></li>
+      <li><a href="#privacy" class="overlay-link"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+    </ul>
   </div>
 
   <!-- Back to Top Button -->
